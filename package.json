@@ -1,0 +1,22 @@
+{
+  "name": "assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "moment-timezone": "^0.5.32",
+    "rxjs": "^6.6.3"
+  },
+  "jest": {
+    "testTimeout": 20000
+  }
+}
